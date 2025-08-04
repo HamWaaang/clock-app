@@ -1,0 +1,71 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.clock-container {
+  width: 100%;
+  max-width: 400px;
+}
+
+.clock-card {
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+}
+
+.clock-icon {
+  font-size: 48px;
+  color: #1890ff;
+  margin-bottom: 10px;
+}
+
+.time-display {
+  font-size: 2.5rem !important;
+  font-weight: bold !important;
+  color: #1890ff !important;
+  text-align: center;
+  margin: 0 !important;
+  font-family: 'Courier New', monospace;
+}
+
+.date-display {
+  font-size: 1rem !important;
+  text-align: center;
+  color: #666 !important;
+}
+
+/* 移动端适配 */
+@media (max-width: 480px) {
+  .app {
+    padding: 10px;
+  }
+  
+  .time-display {
+    font-size: 2rem !important;
+  }
+  
+  .clock-icon {
+    font-size: 36px;
+  }
+}
+
+/* 按钮样式优化 */
+.ant-btn {
+  border-radius: 8px;
+  height: 40px;
+  font-weight: 500;
+}
+
+/* 卡片内容居中 */
+.ant-card-body {
+  text-align: center;
+  padding: 30px 20px;
+}
+
