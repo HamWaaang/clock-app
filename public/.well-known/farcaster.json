@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "app": {
+    "name": "Clock App",
+    "description": "A beautiful and functional clock application with real-time updates.",
+    "icon": "https://clock-app-21yg.vercel.app/vite.svg",
+    "url": "https://clock-app-21yg.vercel.app/"
+  }
+} 
