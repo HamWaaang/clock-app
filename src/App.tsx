@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Card, Typography, Space, Button } from 'antd';
 import { ClockCircleOutlined, ReloadOutlined } from '@ant-design/icons';
 import './App.css';
@@ -10,7 +10,7 @@ function App() {
   const [isRunning, setIsRunning] = useState(true);
 
   useEffect(() => {
-    let interval: NodeJS.Timeout;
+    let interval: number;
     
     if (isRunning) {
       interval = setInterval(() => {
