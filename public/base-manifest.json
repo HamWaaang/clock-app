@@ -2,7 +2,7 @@
   "id": "clock-app",
   "name": "Clock App",
   "description": "A beautiful and functional clock application with real-time updates.",
-  "icon": "https://clock-app-21yg.vercel.app/vite.svg",
+  "icon": "https://clock-app-21yg.vercel.app/icon.png",
   "url": "https://clock-app-21yg.vercel.app/",
   "theme_color": "#1890ff",
   "platforms": ["base"]
