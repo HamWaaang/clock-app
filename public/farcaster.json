@@ -5,5 +5,10 @@
     "description": "A beautiful and functional clock application with real-time updates.",
     "icon": "https://clock-app-21yg.vercel.app/icon.png",
     "url": "https://clock-app-21yg.vercel.app/"
+  },
+  "frame": {
+    "post_url": "https://clock-app-21yg.vercel.app/",
+    "buttons": ["Open Clock"],
+    "image": "https://clock-app-21yg.vercel.app/preview.png"
   }
-} 
+}

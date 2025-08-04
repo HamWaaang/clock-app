@@ -1,9 +1,16 @@
 {
-  "id": "clock-app",
   "name": "Clock App",
-  "description": "A beautiful and functional clock application with real-time updates.",
-  "icon": "https://clock-app-21yg.vercel.app/icon.png",
-  "url": "https://clock-app-21yg.vercel.app/",
+  "short_name": "Clock",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
   "theme_color": "#1890ff",
-  "platforms": ["base"]
+  "description": "A beautiful and functional clock application with real-time updates.",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ]
 }
